@@ -1,0 +1,63 @@
+// WordPress only
+.logged-in .navbar-fixed-top {
+
+    margin-top: 30px;
+    background: #fff;
+
+}
+// END
+
+.header-nav {
+
+  background: #fff;
+
+}
+
+.header-logo {
+
+  padding-bottom: $padding-base-vertical;
+
+}
+
+.nav-justified {
+
+  width: 100%;
+
+  li {
+
+    float: none;
+
+  }
+
+}
+
+@media (min-width: 768px){
+
+  .nav-justified > li {
+
+    display: table-cell;
+    width: 1%;
+
+  }
+
+}
+
+.centred-header {
+
+  .navbar-toggle {
+
+    float: none;
+
+  }
+
+}
+
+.dropdown-col {
+
+  @media (max-width: 768px) {
+
+    margin-top: 3px;
+
+  }
+
+}
